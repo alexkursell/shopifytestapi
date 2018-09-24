@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic Rails application to complete the winter 2018 Shopify backend challenge. It was made quickly using rails (especially the rails command line), but it would be a good jumping off point for a real app.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+* The basic relationships outlined in the challenge
+* A Customer to whom orders belong and who can accumulate "loyalty points", presumably by buying things.
+* Full CRUD operations (courtesy of ```rails generate scaffold```)
+* HTTP Basic Authentication (username ```shopify```, password ```password```). Obviously in a real app, these values would not be hardcoded in, or more granular permissions might be added as well.
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thank you for your consideration! 
